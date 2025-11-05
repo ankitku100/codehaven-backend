@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "nodemon -r dotenv/config --experimental-json-modules src/server.js",
     "start": "node src/server.js",
-    "build": "echo 'No build step required for this project'"
+    "build": "echo 'No build step required for this project'",
+    "vercel-start":"node server.js"
   },
   "author": "Nikunj Kumar",
   "license": "ISC",
