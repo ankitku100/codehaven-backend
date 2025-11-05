@@ -33,4 +33,8 @@ app.use('/api/v1/problem',problemRouter);
 app.use('/api/v1/runcode',runcodeRouter);
 app.use('/api/v1/submissions',submissionRouter);
 
+app.use('/',(req,res)=>{
+    res.send("Welcome to CodeHaven Backend");
+});
+
 export {app}
